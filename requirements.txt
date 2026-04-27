@@ -1,0 +1,26 @@
+# MedRAG 数据处理依赖
+
+# PDF 解析
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+
+# 网页解析
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 表格处理
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# 工具
+pathlib2>=2.3.0
+
+# RAG 向量库和Embedding
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# LLM 调用
+openai>=1.0.0
+httpx>=0.25.0
