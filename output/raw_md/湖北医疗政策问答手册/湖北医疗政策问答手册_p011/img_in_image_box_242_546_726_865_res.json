@@ -1,0 +1,254 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p011\\imgs\\img_in_image_box_242_546_726_865.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 484,
+    "height": 319,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "遛鸟儿去~\n\n",
+            "block_bbox": [
+                12,
+                1,
+                262,
+                318
+            ],
+            "block_id": 0,
+            "block_order": null
+        },
+        {
+            "block_label": "vision_footnote",
+            "block_content": "上班去……",
+            "block_bbox": [
+                273,
+                11,
+                401,
+                38
+            ],
+            "block_id": 1,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.5456421971321106,
+                "coordinate": [
+                    12.91387939453125,
+                    1.111846923828125,
+                    262.8029479980469,
+                    318.4395446777344
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.47076404094696045,
+                "coordinate": [
+                    273.97027587890625,
+                    11.002117156982422,
+                    401.36004638671875,
+                    38.51021194458008
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    27,
+                    11
+                ],
+                [
+                    148,
+                    11
+                ],
+                [
+                    148,
+                    40
+                ],
+                [
+                    27,
+                    40
+                ]
+            ],
+            [
+                [
+                    272,
+                    11
+                ],
+                [
+                    401,
+                    10
+                ],
+                [
+                    401,
+                    38
+                ],
+                [
+                    272,
+                    40
+                ]
+            ],
+            [
+                [
+                    461,
+                    166
+                ],
+                [
+                    470,
+                    168
+                ],
+                [
+                    467,
+                    183
+                ],
+                [
+                    459,
+                    182
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "遛鸟儿去~",
+            "上班去……",
+            "6"
+        ],
+        "rec_scores": [
+            0.9635906219482422,
+            0.9213966131210327,
+            0.8928359746932983
+        ],
+        "rec_polys": [
+            [
+                [
+                    27,
+                    11
+                ],
+                [
+                    148,
+                    11
+                ],
+                [
+                    148,
+                    40
+                ],
+                [
+                    27,
+                    40
+                ]
+            ],
+            [
+                [
+                    272,
+                    11
+                ],
+                [
+                    401,
+                    10
+                ],
+                [
+                    401,
+                    38
+                ],
+                [
+                    272,
+                    40
+                ]
+            ],
+            [
+                [
+                    461,
+                    166
+                ],
+                [
+                    470,
+                    168
+                ],
+                [
+                    467,
+                    183
+                ],
+                [
+                    459,
+                    182
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                27,
+                11,
+                148,
+                40
+            ],
+            [
+                272,
+                10,
+                401,
+                40
+            ],
+            [
+                459,
+                166,
+                470,
+                183
+            ]
+        ]
+    }
+}

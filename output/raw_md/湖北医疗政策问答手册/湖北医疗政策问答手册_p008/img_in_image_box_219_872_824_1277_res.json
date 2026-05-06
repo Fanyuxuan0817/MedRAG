@@ -1,0 +1,366 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p008\\imgs\\img_in_image_box_219_872_824_1277.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 605,
+    "height": 405,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "XX区街道社保111\n00城乡居民医保001",
+            "block_bbox": [
+                0,
+                0,
+                605,
+                404
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.9195370674133301,
+                "coordinate": [
+                    0.21002197265625,
+                    0.27294921875,
+                    605,
+                    404.69390869140625
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    328,
+                    10
+                ],
+                [
+                    599,
+                    13
+                ],
+                [
+                    599,
+                    50
+                ],
+                [
+                    328,
+                    48
+                ]
+            ],
+            [
+                [
+                    329,
+                    141
+                ],
+                [
+                    335,
+                    141
+                ],
+                [
+                    335,
+                    150
+                ],
+                [
+                    329,
+                    150
+                ]
+            ],
+            [
+                [
+                    463,
+                    169
+                ],
+                [
+                    477,
+                    169
+                ],
+                [
+                    477,
+                    188
+                ],
+                [
+                    463,
+                    188
+                ]
+            ],
+            [
+                [
+                    491,
+                    168
+                ],
+                [
+                    504,
+                    168
+                ],
+                [
+                    504,
+                    187
+                ],
+                [
+                    491,
+                    187
+                ]
+            ],
+            [
+                [
+                    97,
+                    186
+                ],
+                [
+                    262,
+                    186
+                ],
+                [
+                    262,
+                    220
+                ],
+                [
+                    97,
+                    220
+                ]
+            ],
+            [
+                [
+                    597,
+                    197
+                ],
+                [
+                    603,
+                    197
+                ],
+                [
+                    603,
+                    207
+                ],
+                [
+                    597,
+                    207
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "XX区街道社保",
+            "111",
+            "0",
+            "0",
+            "城乡居民医保",
+            "001"
+        ],
+        "rec_scores": [
+            0.9809750914573669,
+            0.6029400825500488,
+            0.6180091500282288,
+            0.7686638832092285,
+            0.9949316382408142,
+            0.3620983064174652
+        ],
+        "rec_polys": [
+            [
+                [
+                    328,
+                    10
+                ],
+                [
+                    599,
+                    13
+                ],
+                [
+                    599,
+                    50
+                ],
+                [
+                    328,
+                    48
+                ]
+            ],
+            [
+                [
+                    329,
+                    141
+                ],
+                [
+                    335,
+                    141
+                ],
+                [
+                    335,
+                    150
+                ],
+                [
+                    329,
+                    150
+                ]
+            ],
+            [
+                [
+                    463,
+                    169
+                ],
+                [
+                    477,
+                    169
+                ],
+                [
+                    477,
+                    188
+                ],
+                [
+                    463,
+                    188
+                ]
+            ],
+            [
+                [
+                    491,
+                    168
+                ],
+                [
+                    504,
+                    168
+                ],
+                [
+                    504,
+                    187
+                ],
+                [
+                    491,
+                    187
+                ]
+            ],
+            [
+                [
+                    97,
+                    186
+                ],
+                [
+                    262,
+                    186
+                ],
+                [
+                    262,
+                    220
+                ],
+                [
+                    97,
+                    220
+                ]
+            ],
+            [
+                [
+                    597,
+                    197
+                ],
+                [
+                    603,
+                    197
+                ],
+                [
+                    603,
+                    207
+                ],
+                [
+                    597,
+                    207
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                328,
+                10,
+                599,
+                50
+            ],
+            [
+                329,
+                141,
+                335,
+                150
+            ],
+            [
+                463,
+                169,
+                477,
+                188
+            ],
+            [
+                491,
+                168,
+                504,
+                187
+            ],
+            [
+                97,
+                186,
+                262,
+                220
+            ],
+            [
+                597,
+                197,
+                603,
+                207
+            ]
+        ]
+    }
+}

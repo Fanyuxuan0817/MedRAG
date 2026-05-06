@@ -1,0 +1,89 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p015\\imgs\\img_in_image_box_169_936_359_1277.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 190,
+    "height": 341,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                0,
+                1,
+                190,
+                340
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.8535624146461487,
+                "coordinate": [
+                    0.07610321044921875,
+                    1.2433624267578125,
+                    190,
+                    340.4423828125
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+    }
+}

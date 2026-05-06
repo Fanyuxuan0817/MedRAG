@@ -1,0 +1,366 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p036\\imgs\\img_in_image_box_205_806_450_1212.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 245,
+    "height": 406,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "人脸识别\n请正对手机确保光线充足\n厂7L \n开始采集\n",
+            "block_bbox": [
+                9,
+                4,
+                230,
+                406
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.7325694561004639,
+                "coordinate": [
+                    9.323646545410156,
+                    4.83636474609375,
+                    230.74826049804688,
+                    406
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    69,
+                    23
+                ],
+                [
+                    177,
+                    23
+                ],
+                [
+                    177,
+                    55
+                ],
+                [
+                    69,
+                    55
+                ]
+            ],
+            [
+                [
+                    36,
+                    69
+                ],
+                [
+                    211,
+                    68
+                ],
+                [
+                    211,
+                    88
+                ],
+                [
+                    36,
+                    89
+                ]
+            ],
+            [
+                [
+                    47,
+                    96
+                ],
+                [
+                    66,
+                    96
+                ],
+                [
+                    66,
+                    112
+                ],
+                [
+                    47,
+                    112
+                ]
+            ],
+            [
+                [
+                    182,
+                    95
+                ],
+                [
+                    201,
+                    95
+                ],
+                [
+                    201,
+                    113
+                ],
+                [
+                    182,
+                    113
+                ]
+            ],
+            [
+                [
+                    48,
+                    219
+                ],
+                [
+                    63,
+                    219
+                ],
+                [
+                    63,
+                    234
+                ],
+                [
+                    48,
+                    234
+                ]
+            ],
+            [
+                [
+                    70,
+                    315
+                ],
+                [
+                    177,
+                    315
+                ],
+                [
+                    177,
+                    347
+                ],
+                [
+                    70,
+                    347
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "人脸识别",
+            "请正对手机确保光线充足",
+            "厂",
+            "7",
+            "L",
+            "开始采集"
+        ],
+        "rec_scores": [
+            0.9991829991340637,
+            0.9968581795692444,
+            0.9473570585250854,
+            0.16408812999725342,
+            0.9368426203727722,
+            0.9995869398117065
+        ],
+        "rec_polys": [
+            [
+                [
+                    69,
+                    23
+                ],
+                [
+                    177,
+                    23
+                ],
+                [
+                    177,
+                    55
+                ],
+                [
+                    69,
+                    55
+                ]
+            ],
+            [
+                [
+                    36,
+                    69
+                ],
+                [
+                    211,
+                    68
+                ],
+                [
+                    211,
+                    88
+                ],
+                [
+                    36,
+                    89
+                ]
+            ],
+            [
+                [
+                    47,
+                    96
+                ],
+                [
+                    66,
+                    96
+                ],
+                [
+                    66,
+                    112
+                ],
+                [
+                    47,
+                    112
+                ]
+            ],
+            [
+                [
+                    182,
+                    95
+                ],
+                [
+                    201,
+                    95
+                ],
+                [
+                    201,
+                    113
+                ],
+                [
+                    182,
+                    113
+                ]
+            ],
+            [
+                [
+                    48,
+                    219
+                ],
+                [
+                    63,
+                    219
+                ],
+                [
+                    63,
+                    234
+                ],
+                [
+                    48,
+                    234
+                ]
+            ],
+            [
+                [
+                    70,
+                    315
+                ],
+                [
+                    177,
+                    315
+                ],
+                [
+                    177,
+                    347
+                ],
+                [
+                    70,
+                    347
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                69,
+                23,
+                177,
+                55
+            ],
+            [
+                36,
+                68,
+                211,
+                89
+            ],
+            [
+                47,
+                96,
+                66,
+                112
+            ],
+            [
+                182,
+                95,
+                201,
+                113
+            ],
+            [
+                48,
+                219,
+                63,
+                234
+            ],
+            [
+                70,
+                315,
+                177,
+                347
+            ]
+        ]
+    }
+}

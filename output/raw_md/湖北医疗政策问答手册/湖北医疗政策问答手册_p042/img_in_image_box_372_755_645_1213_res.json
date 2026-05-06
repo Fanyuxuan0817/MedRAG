@@ -1,0 +1,456 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p042\\imgs\\img_in_image_box_372_755_645_1213.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 273,
+    "height": 458,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "医保电子凭证\n支小宝\n3济南医保支付成功￥ 240.00查看账单继续使用",
+            "block_bbox": [
+                15,
+                11,
+                258,
+                452
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.7509512305259705,
+                "coordinate": [
+                    15.3701171875,
+                    11.72491455078125,
+                    258.83251953125,
+                    452.56890869140625
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    24,
+                    48
+                ],
+                [
+                    165,
+                    48
+                ],
+                [
+                    165,
+                    73
+                ],
+                [
+                    24,
+                    74
+                ]
+            ],
+            [
+                [
+                    24,
+                    83
+                ],
+                [
+                    86,
+                    82
+                ],
+                [
+                    86,
+                    105
+                ],
+                [
+                    24,
+                    105
+                ]
+            ],
+            [
+                [
+                    25,
+                    114
+                ],
+                [
+                    37,
+                    113
+                ],
+                [
+                    38,
+                    126
+                ],
+                [
+                    26,
+                    127
+                ]
+            ],
+            [
+                [
+                    204,
+                    106
+                ],
+                [
+                    245,
+                    107
+                ],
+                [
+                    244,
+                    130
+                ],
+                [
+                    204,
+                    129
+                ]
+            ],
+            [
+                [
+                    45,
+                    205
+                ],
+                [
+                    224,
+                    204
+                ],
+                [
+                    224,
+                    238
+                ],
+                [
+                    45,
+                    239
+                ]
+            ],
+            [
+                [
+                    63,
+                    243
+                ],
+                [
+                    204,
+                    243
+                ],
+                [
+                    204,
+                    284
+                ],
+                [
+                    63,
+                    284
+                ]
+            ],
+            [
+                [
+                    46,
+                    331
+                ],
+                [
+                    119,
+                    331
+                ],
+                [
+                    119,
+                    352
+                ],
+                [
+                    46,
+                    352
+                ]
+            ],
+            [
+                [
+                    152,
+                    330
+                ],
+                [
+                    226,
+                    331
+                ],
+                [
+                    226,
+                    353
+                ],
+                [
+                    152,
+                    352
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "医保电子凭证",
+            "支小宝",
+            "3",
+            "济南",
+            "医保支付成功",
+            "￥ 240.00",
+            "查看账单",
+            "继续使用"
+        ],
+        "rec_scores": [
+            0.9997971653938293,
+            0.9997734427452087,
+            0.998826801776886,
+            0.9998106360435486,
+            0.9996480345726013,
+            0.878169059753418,
+            0.9993689060211182,
+            0.9998438358306885
+        ],
+        "rec_polys": [
+            [
+                [
+                    24,
+                    48
+                ],
+                [
+                    165,
+                    48
+                ],
+                [
+                    165,
+                    73
+                ],
+                [
+                    24,
+                    74
+                ]
+            ],
+            [
+                [
+                    24,
+                    83
+                ],
+                [
+                    86,
+                    82
+                ],
+                [
+                    86,
+                    105
+                ],
+                [
+                    24,
+                    105
+                ]
+            ],
+            [
+                [
+                    25,
+                    114
+                ],
+                [
+                    37,
+                    113
+                ],
+                [
+                    38,
+                    126
+                ],
+                [
+                    26,
+                    127
+                ]
+            ],
+            [
+                [
+                    204,
+                    106
+                ],
+                [
+                    245,
+                    107
+                ],
+                [
+                    244,
+                    130
+                ],
+                [
+                    204,
+                    129
+                ]
+            ],
+            [
+                [
+                    45,
+                    205
+                ],
+                [
+                    224,
+                    204
+                ],
+                [
+                    224,
+                    238
+                ],
+                [
+                    45,
+                    239
+                ]
+            ],
+            [
+                [
+                    63,
+                    243
+                ],
+                [
+                    204,
+                    243
+                ],
+                [
+                    204,
+                    284
+                ],
+                [
+                    63,
+                    284
+                ]
+            ],
+            [
+                [
+                    46,
+                    331
+                ],
+                [
+                    119,
+                    331
+                ],
+                [
+                    119,
+                    352
+                ],
+                [
+                    46,
+                    352
+                ]
+            ],
+            [
+                [
+                    152,
+                    330
+                ],
+                [
+                    226,
+                    331
+                ],
+                [
+                    226,
+                    353
+                ],
+                [
+                    152,
+                    352
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                24,
+                48,
+                165,
+                74
+            ],
+            [
+                24,
+                82,
+                86,
+                105
+            ],
+            [
+                25,
+                113,
+                38,
+                127
+            ],
+            [
+                204,
+                106,
+                245,
+                130
+            ],
+            [
+                45,
+                204,
+                224,
+                239
+            ],
+            [
+                63,
+                243,
+                204,
+                284
+            ],
+            [
+                46,
+                331,
+                119,
+                352
+            ],
+            [
+                152,
+                330,
+                226,
+                353
+            ]
+        ]
+    }
+}

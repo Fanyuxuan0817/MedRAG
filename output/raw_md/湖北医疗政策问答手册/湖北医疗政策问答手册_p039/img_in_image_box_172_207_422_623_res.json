@@ -1,0 +1,411 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p039\\imgs\\img_in_image_box_172_207_422_623.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 250,
+    "height": 416,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "医保电子凭证\n\n授权以下信息，激活医保电子凭证\n身份证\n\n李XX \n\n3*********2\n授权激活\n",
+            "block_bbox": [
+                13,
+                9,
+                237,
+                413
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.6946338415145874,
+                "coordinate": [
+                    13.7159423828125,
+                    9.655349731445312,
+                    237.25149536132812,
+                    413.96002197265625
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    77,
+                    24
+                ],
+                [
+                    175,
+                    24
+                ],
+                [
+                    175,
+                    42
+                ],
+                [
+                    77,
+                    42
+                ]
+            ],
+            [
+                [
+                    25,
+                    58
+                ],
+                [
+                    227,
+                    58
+                ],
+                [
+                    227,
+                    75
+                ],
+                [
+                    25,
+                    75
+                ]
+            ],
+            [
+                [
+                    25,
+                    89
+                ],
+                [
+                    69,
+                    89
+                ],
+                [
+                    69,
+                    107
+                ],
+                [
+                    25,
+                    107
+                ]
+            ],
+            [
+                [
+                    25,
+                    121
+                ],
+                [
+                    60,
+                    121
+                ],
+                [
+                    60,
+                    139
+                ],
+                [
+                    25,
+                    139
+                ]
+            ],
+            [
+                [
+                    26,
+                    156
+                ],
+                [
+                    36,
+                    156
+                ],
+                [
+                    36,
+                    168
+                ],
+                [
+                    26,
+                    168
+                ]
+            ],
+            [
+                [
+                    31,
+                    154
+                ],
+                [
+                    143,
+                    155
+                ],
+                [
+                    143,
+                    169
+                ],
+                [
+                    31,
+                    168
+                ]
+            ],
+            [
+                [
+                    70,
+                    299
+                ],
+                [
+                    182,
+                    300
+                ],
+                [
+                    182,
+                    333
+                ],
+                [
+                    70,
+                    332
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "医保电子凭证",
+            "授权以下信息，激活医保电子凭证",
+            "身份证",
+            "李XX",
+            "3",
+            "*********2",
+            "授权激活"
+        ],
+        "rec_scores": [
+            0.999775230884552,
+            0.9990024566650391,
+            0.9998700618743896,
+            0.9890771508216858,
+            0.9988327622413635,
+            0.6801246404647827,
+            0.9991059303283691
+        ],
+        "rec_polys": [
+            [
+                [
+                    77,
+                    24
+                ],
+                [
+                    175,
+                    24
+                ],
+                [
+                    175,
+                    42
+                ],
+                [
+                    77,
+                    42
+                ]
+            ],
+            [
+                [
+                    25,
+                    58
+                ],
+                [
+                    227,
+                    58
+                ],
+                [
+                    227,
+                    75
+                ],
+                [
+                    25,
+                    75
+                ]
+            ],
+            [
+                [
+                    25,
+                    89
+                ],
+                [
+                    69,
+                    89
+                ],
+                [
+                    69,
+                    107
+                ],
+                [
+                    25,
+                    107
+                ]
+            ],
+            [
+                [
+                    25,
+                    121
+                ],
+                [
+                    60,
+                    121
+                ],
+                [
+                    60,
+                    139
+                ],
+                [
+                    25,
+                    139
+                ]
+            ],
+            [
+                [
+                    26,
+                    156
+                ],
+                [
+                    36,
+                    156
+                ],
+                [
+                    36,
+                    168
+                ],
+                [
+                    26,
+                    168
+                ]
+            ],
+            [
+                [
+                    31,
+                    154
+                ],
+                [
+                    143,
+                    155
+                ],
+                [
+                    143,
+                    169
+                ],
+                [
+                    31,
+                    168
+                ]
+            ],
+            [
+                [
+                    70,
+                    299
+                ],
+                [
+                    182,
+                    300
+                ],
+                [
+                    182,
+                    333
+                ],
+                [
+                    70,
+                    332
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                77,
+                24,
+                175,
+                42
+            ],
+            [
+                25,
+                58,
+                227,
+                75
+            ],
+            [
+                25,
+                89,
+                69,
+                107
+            ],
+            [
+                25,
+                121,
+                60,
+                139
+            ],
+            [
+                26,
+                156,
+                36,
+                168
+            ],
+            [
+                31,
+                154,
+                143,
+                169
+            ],
+            [
+                70,
+                299,
+                182,
+                333
+            ]
+        ]
+    }
+}

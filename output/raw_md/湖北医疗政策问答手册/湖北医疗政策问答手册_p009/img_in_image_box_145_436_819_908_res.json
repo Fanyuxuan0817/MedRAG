@@ -1,0 +1,411 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p009\\imgs\\img_in_image_box_145_436_819_908.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 674,
+    "height": 472,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "猪肉便宜咯！",
+            "block_bbox": [
+                22,
+                11,
+                199,
+                44
+            ],
+            "block_id": 0,
+            "block_order": 1
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 0,
+                "label": "paragraph_title",
+                "score": 0.6602024435997009,
+                "coordinate": [
+                    22.379661560058594,
+                    11.399114608764648,
+                    199.73858642578125,
+                    44.04789733886719
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    23,
+                    11
+                ],
+                [
+                    200,
+                    11
+                ],
+                [
+                    200,
+                    46
+                ],
+                [
+                    23,
+                    46
+                ]
+            ],
+            [
+                [
+                    333,
+                    274
+                ],
+                [
+                    337,
+                    274
+                ],
+                [
+                    337,
+                    277
+                ],
+                [
+                    333,
+                    277
+                ]
+            ],
+            [
+                [
+                    417,
+                    274
+                ],
+                [
+                    424,
+                    274
+                ],
+                [
+                    424,
+                    284
+                ],
+                [
+                    417,
+                    284
+                ]
+            ],
+            [
+                [
+                    605,
+                    377
+                ],
+                [
+                    616,
+                    377
+                ],
+                [
+                    616,
+                    391
+                ],
+                [
+                    605,
+                    391
+                ]
+            ],
+            [
+                [
+                    611,
+                    399
+                ],
+                [
+                    618,
+                    399
+                ],
+                [
+                    618,
+                    406
+                ],
+                [
+                    611,
+                    406
+                ]
+            ],
+            [
+                [
+                    311,
+                    421
+                ],
+                [
+                    319,
+                    421
+                ],
+                [
+                    319,
+                    432
+                ],
+                [
+                    311,
+                    432
+                ]
+            ],
+            [
+                [
+                    540,
+                    446
+                ],
+                [
+                    548,
+                    446
+                ],
+                [
+                    548,
+                    451
+                ],
+                [
+                    540,
+                    451
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "猪肉便宜咯！",
+            "享",
+            ":",
+            "Ⅲ",
+            "=",
+            ":",
+            ":"
+        ],
+        "rec_scores": [
+            0.9864408373832703,
+            0.1767122745513916,
+            0.637401282787323,
+            0.2804942727088928,
+            0.19629648327827454,
+            0.5325195789337158,
+            0.717974841594696
+        ],
+        "rec_polys": [
+            [
+                [
+                    23,
+                    11
+                ],
+                [
+                    200,
+                    11
+                ],
+                [
+                    200,
+                    46
+                ],
+                [
+                    23,
+                    46
+                ]
+            ],
+            [
+                [
+                    333,
+                    274
+                ],
+                [
+                    337,
+                    274
+                ],
+                [
+                    337,
+                    277
+                ],
+                [
+                    333,
+                    277
+                ]
+            ],
+            [
+                [
+                    417,
+                    274
+                ],
+                [
+                    424,
+                    274
+                ],
+                [
+                    424,
+                    284
+                ],
+                [
+                    417,
+                    284
+                ]
+            ],
+            [
+                [
+                    605,
+                    377
+                ],
+                [
+                    616,
+                    377
+                ],
+                [
+                    616,
+                    391
+                ],
+                [
+                    605,
+                    391
+                ]
+            ],
+            [
+                [
+                    611,
+                    399
+                ],
+                [
+                    618,
+                    399
+                ],
+                [
+                    618,
+                    406
+                ],
+                [
+                    611,
+                    406
+                ]
+            ],
+            [
+                [
+                    311,
+                    421
+                ],
+                [
+                    319,
+                    421
+                ],
+                [
+                    319,
+                    432
+                ],
+                [
+                    311,
+                    432
+                ]
+            ],
+            [
+                [
+                    540,
+                    446
+                ],
+                [
+                    548,
+                    446
+                ],
+                [
+                    548,
+                    451
+                ],
+                [
+                    540,
+                    451
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                23,
+                11,
+                200,
+                46
+            ],
+            [
+                333,
+                274,
+                337,
+                277
+            ],
+            [
+                417,
+                274,
+                424,
+                284
+            ],
+            [
+                605,
+                377,
+                616,
+                391
+            ],
+            [
+                611,
+                399,
+                618,
+                406
+            ],
+            [
+                311,
+                421,
+                319,
+                432
+            ],
+            [
+                540,
+                446,
+                548,
+                451
+            ]
+        ]
+    }
+}

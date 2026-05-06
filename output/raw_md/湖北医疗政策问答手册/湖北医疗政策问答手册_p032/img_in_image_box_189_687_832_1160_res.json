@@ -1,0 +1,321 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p032\\imgs\\img_in_image_box_189_687_832_1160.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 643,
+    "height": 473,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "方便快捷、应用丰富、全国通用、安全可靠！",
+            "block_bbox": [
+                260,
+                52,
+                631,
+                141
+            ],
+            "block_id": 0,
+            "block_order": 1
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4779537618160248,
+                "coordinate": [
+                    260.5196533203125,
+                    52.31529235839844,
+                    631.566650390625,
+                    141.66615295410156
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    263,
+                    51
+                ],
+                [
+                    632,
+                    51
+                ],
+                [
+                    632,
+                    97
+                ],
+                [
+                    263,
+                    97
+                ]
+            ],
+            [
+                [
+                    259,
+                    100
+                ],
+                [
+                    630,
+                    100
+                ],
+                [
+                    630,
+                    143
+                ],
+                [
+                    259,
+                    143
+                ]
+            ],
+            [
+                [
+                    339,
+                    285
+                ],
+                [
+                    449,
+                    287
+                ],
+                [
+                    448,
+                    349
+                ],
+                [
+                    338,
+                    347
+                ]
+            ],
+            [
+                [
+                    294,
+                    348
+                ],
+                [
+                    495,
+                    348
+                ],
+                [
+                    495,
+                    404
+                ],
+                [
+                    294,
+                    404
+                ]
+            ],
+            [
+                [
+                    21,
+                    373
+                ],
+                [
+                    24,
+                    373
+                ],
+                [
+                    24,
+                    377
+                ],
+                [
+                    21,
+                    377
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "方便快捷、应用丰富、",
+            "全国通用、安全可靠！",
+            "医保",
+            "电子凭证",
+            "。"
+        ],
+        "rec_scores": [
+            0.989447295665741,
+            0.9887770414352417,
+            0.9998466968536377,
+            0.999771773815155,
+            0.09324058145284653
+        ],
+        "rec_polys": [
+            [
+                [
+                    263,
+                    51
+                ],
+                [
+                    632,
+                    51
+                ],
+                [
+                    632,
+                    97
+                ],
+                [
+                    263,
+                    97
+                ]
+            ],
+            [
+                [
+                    259,
+                    100
+                ],
+                [
+                    630,
+                    100
+                ],
+                [
+                    630,
+                    143
+                ],
+                [
+                    259,
+                    143
+                ]
+            ],
+            [
+                [
+                    339,
+                    285
+                ],
+                [
+                    449,
+                    287
+                ],
+                [
+                    448,
+                    349
+                ],
+                [
+                    338,
+                    347
+                ]
+            ],
+            [
+                [
+                    294,
+                    348
+                ],
+                [
+                    495,
+                    348
+                ],
+                [
+                    495,
+                    404
+                ],
+                [
+                    294,
+                    404
+                ]
+            ],
+            [
+                [
+                    21,
+                    373
+                ],
+                [
+                    24,
+                    373
+                ],
+                [
+                    24,
+                    377
+                ],
+                [
+                    21,
+                    377
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                263,
+                51,
+                632,
+                97
+            ],
+            [
+                259,
+                100,
+                630,
+                143
+            ],
+            [
+                338,
+                285,
+                449,
+                349
+            ],
+            [
+                294,
+                348,
+                495,
+                404
+            ],
+            [
+                21,
+                373,
+                24,
+                377
+            ]
+        ]
+    }
+}

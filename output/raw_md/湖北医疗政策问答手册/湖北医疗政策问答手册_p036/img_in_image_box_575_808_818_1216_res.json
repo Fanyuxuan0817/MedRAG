@@ -1,0 +1,276 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p036\\imgs\\img_in_image_box_575_808_818_1216.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 243,
+    "height": 408,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "医保电子凭证\n李XX3********2\n激活\n\n",
+            "block_bbox": [
+                13,
+                16,
+                229,
+                402
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.5970306396484375,
+                "coordinate": [
+                    13.697883605957031,
+                    16.51300048828125,
+                    229.71365356445312,
+                    402.6617736816406
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    23,
+                    31
+                ],
+                [
+                    182,
+                    31
+                ],
+                [
+                    182,
+                    61
+                ],
+                [
+                    23,
+                    61
+                ]
+            ],
+            [
+                [
+                    41,
+                    87
+                ],
+                [
+                    189,
+                    84
+                ],
+                [
+                    190,
+                    101
+                ],
+                [
+                    41,
+                    104
+                ]
+            ],
+            [
+                [
+                    185,
+                    89
+                ],
+                [
+                    193,
+                    89
+                ],
+                [
+                    193,
+                    100
+                ],
+                [
+                    185,
+                    100
+                ]
+            ],
+            [
+                [
+                    83,
+                    214
+                ],
+                [
+                    152,
+                    215
+                ],
+                [
+                    152,
+                    253
+                ],
+                [
+                    83,
+                    252
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "医保电子凭证",
+            "李XX3********",
+            "2",
+            "激活"
+        ],
+        "rec_scores": [
+            0.999904453754425,
+            0.7790267467498779,
+            0.998002827167511,
+            0.9996951222419739
+        ],
+        "rec_polys": [
+            [
+                [
+                    23,
+                    31
+                ],
+                [
+                    182,
+                    31
+                ],
+                [
+                    182,
+                    61
+                ],
+                [
+                    23,
+                    61
+                ]
+            ],
+            [
+                [
+                    41,
+                    87
+                ],
+                [
+                    189,
+                    84
+                ],
+                [
+                    190,
+                    101
+                ],
+                [
+                    41,
+                    104
+                ]
+            ],
+            [
+                [
+                    185,
+                    89
+                ],
+                [
+                    193,
+                    89
+                ],
+                [
+                    193,
+                    100
+                ],
+                [
+                    185,
+                    100
+                ]
+            ],
+            [
+                [
+                    83,
+                    214
+                ],
+                [
+                    152,
+                    215
+                ],
+                [
+                    152,
+                    253
+                ],
+                [
+                    83,
+                    252
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                23,
+                31,
+                182,
+                61
+            ],
+            [
+                41,
+                84,
+                190,
+                104
+            ],
+            [
+                185,
+                89,
+                193,
+                100
+            ],
+            [
+                83,
+                214,
+                152,
+                253
+            ]
+        ]
+    }
+}

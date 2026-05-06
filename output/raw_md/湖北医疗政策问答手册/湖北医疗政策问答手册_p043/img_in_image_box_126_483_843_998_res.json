@@ -1,0 +1,435 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p043\\imgs\\img_in_image_box_126_483_843_998.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 717,
+    "height": 515,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "我的天这么多人啥时候才能排到我？待会儿还要开会啊这可咋整…",
+            "block_bbox": [
+                38,
+                1,
+                325,
+                101
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                259,
+                125,
+                716,
+                515
+            ],
+            "block_id": 1,
+            "block_order": null
+        },
+        {
+            "block_label": "image",
+            "block_content": "11/1\n\n:\n",
+            "block_bbox": [
+                3,
+                120,
+                185,
+                515
+            ],
+            "block_id": 2,
+            "block_order": null
+        },
+        {
+            "block_label": "paragraph_title",
+            "block_content": "挂号缴费",
+            "block_bbox": [
+                397,
+                11,
+                678,
+                95
+            ],
+            "block_id": 3,
+            "block_order": 2
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.7037585973739624,
+                "coordinate": [
+                    38.46430969238281,
+                    1.1382942199707031,
+                    325.02398681640625,
+                    101.30317687988281
+                ]
+            },
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.5573623180389404,
+                "coordinate": [
+                    259.06304931640625,
+                    125.06967163085938,
+                    716.9320678710938,
+                    515
+                ]
+            },
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.503233015537262,
+                "coordinate": [
+                    3.6424026489257812,
+                    120.50579833984375,
+                    185.90133666992188,
+                    515
+                ]
+            },
+            {
+                "cls_id": 0,
+                "label": "paragraph_title",
+                "score": 0.4158313274383545,
+                "coordinate": [
+                    397.37652587890625,
+                    11.4061279296875,
+                    678.9671020507812,
+                    95.82408905029297
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    42,
+                    4
+                ],
+                [
+                    323,
+                    4
+                ],
+                [
+                    323,
+                    33
+                ],
+                [
+                    42,
+                    33
+                ]
+            ],
+            [
+                [
+                    403,
+                    17
+                ],
+                [
+                    676,
+                    17
+                ],
+                [
+                    676,
+                    94
+                ],
+                [
+                    403,
+                    94
+                ]
+            ],
+            [
+                [
+                    41,
+                    36
+                ],
+                [
+                    323,
+                    36
+                ],
+                [
+                    323,
+                    67
+                ],
+                [
+                    41,
+                    67
+                ]
+            ],
+            [
+                [
+                    41,
+                    72
+                ],
+                [
+                    294,
+                    71
+                ],
+                [
+                    294,
+                    100
+                ],
+                [
+                    41,
+                    102
+                ]
+            ],
+            [
+                [
+                    73,
+                    220
+                ],
+                [
+                    92,
+                    220
+                ],
+                [
+                    92,
+                    232
+                ],
+                [
+                    73,
+                    232
+                ]
+            ],
+            [
+                [
+                    11,
+                    303
+                ],
+                [
+                    17,
+                    303
+                ],
+                [
+                    17,
+                    309
+                ],
+                [
+                    11,
+                    309
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "我的天这么多人啥时候",
+            "挂号缴费",
+            "才能排到我？待会儿还",
+            "要开会啊这可咋整…",
+            "11/1",
+            ":"
+        ],
+        "rec_scores": [
+            0.9966219067573547,
+            0.9976348876953125,
+            0.992263913154602,
+            0.9863491058349609,
+            0.6623333692550659,
+            0.5135868191719055
+        ],
+        "rec_polys": [
+            [
+                [
+                    42,
+                    4
+                ],
+                [
+                    323,
+                    4
+                ],
+                [
+                    323,
+                    33
+                ],
+                [
+                    42,
+                    33
+                ]
+            ],
+            [
+                [
+                    403,
+                    17
+                ],
+                [
+                    676,
+                    17
+                ],
+                [
+                    676,
+                    94
+                ],
+                [
+                    403,
+                    94
+                ]
+            ],
+            [
+                [
+                    41,
+                    36
+                ],
+                [
+                    323,
+                    36
+                ],
+                [
+                    323,
+                    67
+                ],
+                [
+                    41,
+                    67
+                ]
+            ],
+            [
+                [
+                    41,
+                    72
+                ],
+                [
+                    294,
+                    71
+                ],
+                [
+                    294,
+                    100
+                ],
+                [
+                    41,
+                    102
+                ]
+            ],
+            [
+                [
+                    73,
+                    220
+                ],
+                [
+                    92,
+                    220
+                ],
+                [
+                    92,
+                    232
+                ],
+                [
+                    73,
+                    232
+                ]
+            ],
+            [
+                [
+                    11,
+                    303
+                ],
+                [
+                    17,
+                    303
+                ],
+                [
+                    17,
+                    309
+                ],
+                [
+                    11,
+                    309
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                42,
+                4,
+                323,
+                33
+            ],
+            [
+                403,
+                17,
+                676,
+                94
+            ],
+            [
+                41,
+                36,
+                323,
+                67
+            ],
+            [
+                41,
+                71,
+                294,
+                102
+            ],
+            [
+                73,
+                220,
+                92,
+                232
+            ],
+            [
+                11,
+                303,
+                17,
+                309
+            ]
+        ]
+    }
+}

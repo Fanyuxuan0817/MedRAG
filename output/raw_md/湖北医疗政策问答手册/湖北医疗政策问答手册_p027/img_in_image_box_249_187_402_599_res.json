@@ -1,0 +1,366 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p027\\imgs\\img_in_image_box_249_187_402_599.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 153,
+    "height": 412,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "…\n\n©\n\n.\n\n国\n\nE \n",
+            "block_bbox": [
+                1,
+                2,
+                152,
+                411
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.9640310406684875,
+                "coordinate": [
+                    1.286285400390625,
+                    2.9764556884765625,
+                    152.83067321777344,
+                    411.54974365234375
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    72,
+                    71
+                ],
+                [
+                    77,
+                    71
+                ],
+                [
+                    77,
+                    79
+                ],
+                [
+                    72,
+                    79
+                ]
+            ],
+            [
+                [
+                    63,
+                    222
+                ],
+                [
+                    79,
+                    222
+                ],
+                [
+                    79,
+                    237
+                ],
+                [
+                    63,
+                    237
+                ]
+            ],
+            [
+                [
+                    32,
+                    233
+                ],
+                [
+                    38,
+                    233
+                ],
+                [
+                    38,
+                    242
+                ],
+                [
+                    32,
+                    242
+                ]
+            ],
+            [
+                [
+                    60,
+                    237
+                ],
+                [
+                    84,
+                    237
+                ],
+                [
+                    84,
+                    250
+                ],
+                [
+                    60,
+                    250
+                ]
+            ],
+            [
+                [
+                    55,
+                    249
+                ],
+                [
+                    88,
+                    249
+                ],
+                [
+                    88,
+                    262
+                ],
+                [
+                    55,
+                    262
+                ]
+            ],
+            [
+                [
+                    67,
+                    267
+                ],
+                [
+                    78,
+                    267
+                ],
+                [
+                    78,
+                    272
+                ],
+                [
+                    67,
+                    272
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "…",
+            "©",
+            ".",
+            "国",
+            "",
+            "E"
+        ],
+        "rec_scores": [
+            0.21634835004806519,
+            0.120048888027668,
+            0.19095051288604736,
+            0.9469004273414612,
+            0.0,
+            0.07868713140487671
+        ],
+        "rec_polys": [
+            [
+                [
+                    72,
+                    71
+                ],
+                [
+                    77,
+                    71
+                ],
+                [
+                    77,
+                    79
+                ],
+                [
+                    72,
+                    79
+                ]
+            ],
+            [
+                [
+                    63,
+                    222
+                ],
+                [
+                    79,
+                    222
+                ],
+                [
+                    79,
+                    237
+                ],
+                [
+                    63,
+                    237
+                ]
+            ],
+            [
+                [
+                    32,
+                    233
+                ],
+                [
+                    38,
+                    233
+                ],
+                [
+                    38,
+                    242
+                ],
+                [
+                    32,
+                    242
+                ]
+            ],
+            [
+                [
+                    60,
+                    237
+                ],
+                [
+                    84,
+                    237
+                ],
+                [
+                    84,
+                    250
+                ],
+                [
+                    60,
+                    250
+                ]
+            ],
+            [
+                [
+                    55,
+                    249
+                ],
+                [
+                    88,
+                    249
+                ],
+                [
+                    88,
+                    262
+                ],
+                [
+                    55,
+                    262
+                ]
+            ],
+            [
+                [
+                    67,
+                    267
+                ],
+                [
+                    78,
+                    267
+                ],
+                [
+                    78,
+                    272
+                ],
+                [
+                    67,
+                    272
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                72,
+                71,
+                77,
+                79
+            ],
+            [
+                63,
+                222,
+                79,
+                237
+            ],
+            [
+                32,
+                233,
+                38,
+                242
+            ],
+            [
+                60,
+                237,
+                84,
+                250
+            ],
+            [
+                55,
+                249,
+                88,
+                262
+            ],
+            [
+                67,
+                267,
+                78,
+                272
+            ]
+        ]
+    }
+}

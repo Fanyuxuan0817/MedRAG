@@ -1,0 +1,209 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p040\\imgs\\img_in_image_box_588_794_849_1229.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 261,
+    "height": 435,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "领取结果",
+            "block_bbox": [
+                85,
+                26,
+                176,
+                52
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "医保电子凭证已放入卡包-证件",
+            "block_bbox": [
+                21,
+                126,
+                242,
+                148
+            ],
+            "block_id": 1,
+            "block_order": 2
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4768329858779907,
+                "coordinate": [
+                    21.154273986816406,
+                    126.28622436523438,
+                    242.76919555664062,
+                    148.35626220703125
+                ]
+            },
+            {
+                "cls_id": 0,
+                "label": "paragraph_title",
+                "score": 0.3793600797653198,
+                "coordinate": [
+                    85.77398681640625,
+                    26.535781860351562,
+                    176.42062377929688,
+                    52.47981262207031
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    85,
+                    28
+                ],
+                [
+                    176,
+                    28
+                ],
+                [
+                    176,
+                    53
+                ],
+                [
+                    85,
+                    53
+                ]
+            ],
+            [
+                [
+                    20,
+                    129
+                ],
+                [
+                    243,
+                    129
+                ],
+                [
+                    243,
+                    147
+                ],
+                [
+                    20,
+                    147
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "领取结果",
+            "医保电子凭证已放入卡包-证件"
+        ],
+        "rec_scores": [
+            0.9986647367477417,
+            0.9931153655052185
+        ],
+        "rec_polys": [
+            [
+                [
+                    85,
+                    28
+                ],
+                [
+                    176,
+                    28
+                ],
+                [
+                    176,
+                    53
+                ],
+                [
+                    85,
+                    53
+                ]
+            ],
+            [
+                [
+                    20,
+                    129
+                ],
+                [
+                    243,
+                    129
+                ],
+                [
+                    243,
+                    147
+                ],
+                [
+                    20,
+                    147
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                85,
+                28,
+                176,
+                53
+            ],
+            [
+                20,
+                129,
+                243,
+                147
+            ]
+        ]
+    }
+}

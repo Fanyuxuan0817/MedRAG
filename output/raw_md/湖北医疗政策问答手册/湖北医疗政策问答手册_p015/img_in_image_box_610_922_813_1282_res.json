@@ -1,0 +1,141 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p015\\imgs\\img_in_image_box_610_922_813_1282.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 203,
+    "height": 360,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": ":\n",
+            "block_bbox": [
+                0,
+                3,
+                202,
+                360
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.9649267792701721,
+                "coordinate": [
+                    0.01888275146484375,
+                    3.2392425537109375,
+                    202.73516845703125,
+                    360
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    47,
+                    22
+                ],
+                [
+                    54,
+                    24
+                ],
+                [
+                    51,
+                    33
+                ],
+                [
+                    44,
+                    31
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            ":"
+        ],
+        "rec_scores": [
+            0.6821035146713257
+        ],
+        "rec_polys": [
+            [
+                [
+                    47,
+                    22
+                ],
+                [
+                    54,
+                    24
+                ],
+                [
+                    51,
+                    33
+                ],
+                [
+                    44,
+                    31
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                44,
+                22,
+                54,
+                33
+            ]
+        ]
+    }
+}

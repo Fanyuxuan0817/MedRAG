@@ -1,0 +1,412 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p035\\imgs\\img_in_image_box_210_482_771_844.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 561,
+    "height": 362,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                5,
+                4,
+                281,
+                123
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "image",
+            "block_content": "证\n\n上\n\n!\n\n",
+            "block_bbox": [
+                249,
+                10,
+                560,
+                361
+            ],
+            "block_id": 1,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5966827869415283,
+                "coordinate": [
+                    5.3699493408203125,
+                    4.348426818847656,
+                    281.739990234375,
+                    123.34952545166016
+                ]
+            },
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.5154178142547607,
+                "coordinate": [
+                    249.45050048828125,
+                    10.957901000976562,
+                    560.0967407226562,
+                    361.780517578125
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    9,
+                    5
+                ],
+                [
+                    281,
+                    5
+                ],
+                [
+                    281,
+                    42
+                ],
+                [
+                    9,
+                    42
+                ]
+            ],
+            [
+                [
+                    8,
+                    46
+                ],
+                [
+                    281,
+                    46
+                ],
+                [
+                    281,
+                    84
+                ],
+                [
+                    8,
+                    84
+                ]
+            ],
+            [
+                [
+                    7,
+                    86
+                ],
+                [
+                    263,
+                    86
+                ],
+                [
+                    263,
+                    123
+                ],
+                [
+                    7,
+                    123
+                ]
+            ],
+            [
+                [
+                    249,
+                    10
+                ],
+                [
+                    282,
+                    10
+                ],
+                [
+                    282,
+                    42
+                ],
+                [
+                    249,
+                    42
+                ]
+            ],
+            [
+                [
+                    249,
+                    46
+                ],
+                [
+                    282,
+                    46
+                ],
+                [
+                    282,
+                    84
+                ],
+                [
+                    249,
+                    84
+                ]
+            ],
+            [
+                [
+                    249,
+                    86
+                ],
+                [
+                    263,
+                    86
+                ],
+                [
+                    263,
+                    125
+                ],
+                [
+                    249,
+                    125
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "",
+            "",
+            "",
+            "证",
+            "上",
+            "!",
+            ""
+        ],
+        "rec_scores": [
+            0.9990378618240356,
+            0.9969735145568848,
+            0.9891577959060669,
+            0.9998811483383179,
+            0.9999362230300903,
+            0.9983812570571899,
+            0.0
+        ],
+        "rec_polys": [
+            [
+                [
+                    9,
+                    5
+                ],
+                [
+                    281,
+                    5
+                ],
+                [
+                    281,
+                    42
+                ],
+                [
+                    9,
+                    42
+                ]
+            ],
+            [
+                [
+                    8,
+                    46
+                ],
+                [
+                    281,
+                    46
+                ],
+                [
+                    281,
+                    84
+                ],
+                [
+                    8,
+                    84
+                ]
+            ],
+            [
+                [
+                    7,
+                    86
+                ],
+                [
+                    263,
+                    86
+                ],
+                [
+                    263,
+                    123
+                ],
+                [
+                    7,
+                    123
+                ]
+            ],
+            [
+                [
+                    249,
+                    10
+                ],
+                [
+                    282,
+                    10
+                ],
+                [
+                    282,
+                    42
+                ],
+                [
+                    249,
+                    42
+                ]
+            ],
+            [
+                [
+                    249,
+                    46
+                ],
+                [
+                    282,
+                    46
+                ],
+                [
+                    282,
+                    84
+                ],
+                [
+                    249,
+                    84
+                ]
+            ],
+            [
+                [
+                    249,
+                    86
+                ],
+                [
+                    263,
+                    86
+                ],
+                [
+                    263,
+                    125
+                ],
+                [
+                    249,
+                    125
+                ]
+            ],
+            [
+                [
+                    5,
+                    4
+                ],
+                [
+                    281,
+                    4
+                ],
+                [
+                    281,
+                    123
+                ],
+                [
+                    5,
+                    123
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                9.0,
+                5.0,
+                281.0,
+                42.0
+            ],
+            [
+                8.0,
+                46.0,
+                281.739990234375,
+                84.0
+            ],
+            [
+                7.0,
+                86.0,
+                263.0,
+                123.34952545166016
+            ],
+            [
+                249.45050048828125,
+                10.957901000976562,
+                282.0,
+                42.0
+            ],
+            [
+                249.45050048828125,
+                46.0,
+                282.0,
+                84.0
+            ],
+            [
+                249.45050048828125,
+                86.0,
+                263.0,
+                125.0
+            ],
+            [
+                5.3699493408203125,
+                4.348426818847656,
+                281.739990234375,
+                123.34952545166016
+            ]
+        ]
+    }
+}

@@ -1,0 +1,366 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p040\\imgs\\img_in_image_box_589_277_842_700.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 253,
+    "height": 423,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "返回身份验证\n\n国家医疗保障局\n\n查询你的人脸照片\n\n使用服务需同意《认证服务协议》\n同意并认证\n\n",
+            "block_bbox": [
+                10,
+                4,
+                244,
+                421
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.6012476682662964,
+                "coordinate": [
+                    10.303276062011719,
+                    4.0877838134765625,
+                    244.57080078125,
+                    421.019775390625
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    23,
+                    28
+                ],
+                [
+                    58,
+                    28
+                ],
+                [
+                    58,
+                    49
+                ],
+                [
+                    23,
+                    49
+                ]
+            ],
+            [
+                [
+                    94,
+                    27
+                ],
+                [
+                    162,
+                    27
+                ],
+                [
+                    162,
+                    48
+                ],
+                [
+                    94,
+                    48
+                ]
+            ],
+            [
+                [
+                    66,
+                    94
+                ],
+                [
+                    181,
+                    94
+                ],
+                [
+                    181,
+                    112
+                ],
+                [
+                    66,
+                    112
+                ]
+            ],
+            [
+                [
+                    28,
+                    190
+                ],
+                [
+                    144,
+                    190
+                ],
+                [
+                    144,
+                    207
+                ],
+                [
+                    28,
+                    207
+                ]
+            ],
+            [
+                [
+                    26,
+                    217
+                ],
+                [
+                    211,
+                    217
+                ],
+                [
+                    211,
+                    232
+                ],
+                [
+                    26,
+                    232
+                ]
+            ],
+            [
+                [
+                    72,
+                    292
+                ],
+                [
+                    182,
+                    292
+                ],
+                [
+                    182,
+                    317
+                ],
+                [
+                    72,
+                    317
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "返回",
+            "身份验证",
+            "国家医疗保障局",
+            "查询你的人脸照片",
+            "使用服务需同意《认证服务协议》",
+            "同意并认证"
+        ],
+        "rec_scores": [
+            0.9992526769638062,
+            0.999869704246521,
+            0.9995642304420471,
+            0.9986816644668579,
+            0.9963625073432922,
+            0.9995896220207214
+        ],
+        "rec_polys": [
+            [
+                [
+                    23,
+                    28
+                ],
+                [
+                    58,
+                    28
+                ],
+                [
+                    58,
+                    49
+                ],
+                [
+                    23,
+                    49
+                ]
+            ],
+            [
+                [
+                    94,
+                    27
+                ],
+                [
+                    162,
+                    27
+                ],
+                [
+                    162,
+                    48
+                ],
+                [
+                    94,
+                    48
+                ]
+            ],
+            [
+                [
+                    66,
+                    94
+                ],
+                [
+                    181,
+                    94
+                ],
+                [
+                    181,
+                    112
+                ],
+                [
+                    66,
+                    112
+                ]
+            ],
+            [
+                [
+                    28,
+                    190
+                ],
+                [
+                    144,
+                    190
+                ],
+                [
+                    144,
+                    207
+                ],
+                [
+                    28,
+                    207
+                ]
+            ],
+            [
+                [
+                    26,
+                    217
+                ],
+                [
+                    211,
+                    217
+                ],
+                [
+                    211,
+                    232
+                ],
+                [
+                    26,
+                    232
+                ]
+            ],
+            [
+                [
+                    72,
+                    292
+                ],
+                [
+                    182,
+                    292
+                ],
+                [
+                    182,
+                    317
+                ],
+                [
+                    72,
+                    317
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                23,
+                28,
+                58,
+                49
+            ],
+            [
+                94,
+                27,
+                162,
+                48
+            ],
+            [
+                66,
+                94,
+                181,
+                112
+            ],
+            [
+                28,
+                190,
+                144,
+                207
+            ],
+            [
+                26,
+                217,
+                211,
+                232
+            ],
+            [
+                72,
+                292,
+                182,
+                317
+            ]
+        ]
+    }
+}

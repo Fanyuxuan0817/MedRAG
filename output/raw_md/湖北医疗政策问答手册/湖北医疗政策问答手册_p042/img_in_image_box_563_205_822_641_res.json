@@ -1,0 +1,326 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p042\\imgs\\img_in_image_box_563_205_822_641.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 259,
+    "height": 436,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "医保电子凭证",
+            "block_bbox": [
+                24,
+                46,
+                156,
+                71
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "支小宝",
+            "block_bbox": [
+                25,
+                79,
+                81,
+                100
+            ],
+            "block_id": 1,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "济南",
+            "block_bbox": [
+                196,
+                103,
+                230,
+                122
+            ],
+            "block_id": 2,
+            "block_order": 3
+        },
+        {
+            "block_label": "doc_title",
+            "block_content": "器",
+            "block_bbox": [
+                68,
+                181,
+                189,
+                303
+            ],
+            "block_id": 3,
+            "block_order": 4
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.6049544811248779,
+                "coordinate": [
+                    196.26602172851562,
+                    103.31983947753906,
+                    230.23843383789062,
+                    122.56440734863281
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5599101781845093,
+                "coordinate": [
+                    25.223373413085938,
+                    79.89879608154297,
+                    81.44041442871094,
+                    100.66658782958984
+                ]
+            },
+            {
+                "cls_id": 10,
+                "label": "doc_title",
+                "score": 0.532637357711792,
+                "coordinate": [
+                    68.87545013427734,
+                    181.29348754882812,
+                    189.20480346679688,
+                    303.14215087890625
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.40047481656074524,
+                "coordinate": [
+                    24.726165771484375,
+                    46.392127990722656,
+                    156.92428588867188,
+                    71.29114532470703
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    23,
+                    47
+                ],
+                [
+                    158,
+                    46
+                ],
+                [
+                    158,
+                    71
+                ],
+                [
+                    23,
+                    72
+                ]
+            ],
+            [
+                [
+                    23,
+                    79
+                ],
+                [
+                    83,
+                    79
+                ],
+                [
+                    83,
+                    101
+                ],
+                [
+                    23,
+                    102
+                ]
+            ],
+            [
+                [
+                    194,
+                    101
+                ],
+                [
+                    233,
+                    101
+                ],
+                [
+                    233,
+                    124
+                ],
+                [
+                    194,
+                    124
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "医保电子凭证",
+            "支小宝",
+            "济南",
+            "器"
+        ],
+        "rec_scores": [
+            0.999793291091919,
+            0.9997642040252686,
+            0.9999145269393921,
+            0.9328522086143494
+        ],
+        "rec_polys": [
+            [
+                [
+                    23,
+                    47
+                ],
+                [
+                    158,
+                    46
+                ],
+                [
+                    158,
+                    71
+                ],
+                [
+                    23,
+                    72
+                ]
+            ],
+            [
+                [
+                    23,
+                    79
+                ],
+                [
+                    83,
+                    79
+                ],
+                [
+                    83,
+                    101
+                ],
+                [
+                    23,
+                    102
+                ]
+            ],
+            [
+                [
+                    194,
+                    101
+                ],
+                [
+                    233,
+                    101
+                ],
+                [
+                    233,
+                    124
+                ],
+                [
+                    194,
+                    124
+                ]
+            ],
+            [
+                [
+                    68,
+                    181
+                ],
+                [
+                    189,
+                    181
+                ],
+                [
+                    189,
+                    303
+                ],
+                [
+                    68,
+                    303
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                23.0,
+                46.0,
+                158.0,
+                72.0
+            ],
+            [
+                23.0,
+                79.0,
+                83.0,
+                102.0
+            ],
+            [
+                194.0,
+                101.0,
+                233.0,
+                124.0
+            ],
+            [
+                68.87545013427734,
+                181.29348754882812,
+                189.20480346679688,
+                303.14215087890625
+            ]
+        ]
+    }
+}

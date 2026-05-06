@@ -1,0 +1,434 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p024\\imgs\\img_in_image_box_162_420_826_1281.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 664,
+    "height": 861,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "真是对不住啊大爷！您可千万撑住啊！我这就带您上医院！",
+            "block_bbox": [
+                53,
+                456,
+                186,
+                602
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "哎呀！",
+            "block_bbox": [
+                307,
+                47,
+                383,
+                83
+            ],
+            "block_id": 1,
+            "block_order": 2
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.7081586122512817,
+                "coordinate": [
+                    53.75525665283203,
+                    456.8349609375,
+                    186.51715087890625,
+                    602.2041015625
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5958961248397827,
+                "coordinate": [
+                    307.3477783203125,
+                    47.07697296142578,
+                    383.9404296875,
+                    83.21028900146484
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    302,
+                    45
+                ],
+                [
+                    388,
+                    45
+                ],
+                [
+                    388,
+                    85
+                ],
+                [
+                    302,
+                    85
+                ]
+            ],
+            [
+                [
+                    53,
+                    457
+                ],
+                [
+                    177,
+                    457
+                ],
+                [
+                    177,
+                    485
+                ],
+                [
+                    53,
+                    485
+                ]
+            ],
+            [
+                [
+                    52,
+                    486
+                ],
+                [
+                    177,
+                    484
+                ],
+                [
+                    178,
+                    513
+                ],
+                [
+                    53,
+                    515
+                ]
+            ],
+            [
+                [
+                    515,
+                    505
+                ],
+                [
+                    567,
+                    508
+                ],
+                [
+                    563,
+                    580
+                ],
+                [
+                    511,
+                    577
+                ]
+            ],
+            [
+                [
+                    53,
+                    516
+                ],
+                [
+                    177,
+                    514
+                ],
+                [
+                    178,
+                    543
+                ],
+                [
+                    54,
+                    545
+                ]
+            ],
+            [
+                [
+                    52,
+                    545
+                ],
+                [
+                    178,
+                    542
+                ],
+                [
+                    179,
+                    571
+                ],
+                [
+                    53,
+                    573
+                ]
+            ],
+            [
+                [
+                    53,
+                    574
+                ],
+                [
+                    188,
+                    572
+                ],
+                [
+                    189,
+                    601
+                ],
+                [
+                    54,
+                    603
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "哎呀！",
+            "真是对不住",
+            "啊大爷！您",
+            "?",
+            "可千万撑住",
+            "啊！我这就",
+            "带您上医院！"
+        ],
+        "rec_scores": [
+            0.9900055527687073,
+            0.9989186525344849,
+            0.9955786466598511,
+            0.8982453346252441,
+            0.9985650181770325,
+            0.9964472055435181,
+            0.9877402782440186
+        ],
+        "rec_polys": [
+            [
+                [
+                    302,
+                    45
+                ],
+                [
+                    388,
+                    45
+                ],
+                [
+                    388,
+                    85
+                ],
+                [
+                    302,
+                    85
+                ]
+            ],
+            [
+                [
+                    53,
+                    457
+                ],
+                [
+                    177,
+                    457
+                ],
+                [
+                    177,
+                    485
+                ],
+                [
+                    53,
+                    485
+                ]
+            ],
+            [
+                [
+                    52,
+                    486
+                ],
+                [
+                    177,
+                    484
+                ],
+                [
+                    178,
+                    513
+                ],
+                [
+                    53,
+                    515
+                ]
+            ],
+            [
+                [
+                    515,
+                    505
+                ],
+                [
+                    567,
+                    508
+                ],
+                [
+                    563,
+                    580
+                ],
+                [
+                    511,
+                    577
+                ]
+            ],
+            [
+                [
+                    53,
+                    516
+                ],
+                [
+                    177,
+                    514
+                ],
+                [
+                    178,
+                    543
+                ],
+                [
+                    54,
+                    545
+                ]
+            ],
+            [
+                [
+                    52,
+                    545
+                ],
+                [
+                    178,
+                    542
+                ],
+                [
+                    179,
+                    571
+                ],
+                [
+                    53,
+                    573
+                ]
+            ],
+            [
+                [
+                    53,
+                    574
+                ],
+                [
+                    188,
+                    572
+                ],
+                [
+                    189,
+                    601
+                ],
+                [
+                    54,
+                    603
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                302,
+                45,
+                388,
+                85
+            ],
+            [
+                53,
+                457,
+                177,
+                485
+            ],
+            [
+                52,
+                484,
+                178,
+                515
+            ],
+            [
+                511,
+                505,
+                567,
+                580
+            ],
+            [
+                53,
+                514,
+                178,
+                545
+            ],
+            [
+                52,
+                542,
+                179,
+                573
+            ],
+            [
+                53,
+                572,
+                189,
+                603
+            ]
+        ]
+    }
+}

@@ -1,0 +1,412 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p036\\imgs\\img_in_image_box_575_304_816_706.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 241,
+    "height": 402,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "实名认证",
+            "block_bbox": [
+                69,
+                27,
+                171,
+                56
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "身份信息",
+            "block_bbox": [
+                34,
+                79,
+                104,
+                103
+            ],
+            "block_id": 1,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "姓名\n身份证号",
+            "block_bbox": [
+                34,
+                122,
+                90,
+                167
+            ],
+            "block_id": 2,
+            "block_order": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "开始认证",
+            "block_bbox": [
+                78,
+                237,
+                162,
+                262
+            ],
+            "block_id": 3,
+            "block_order": 4
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5997841358184814,
+                "coordinate": [
+                    34.79166030883789,
+                    79.85475158691406,
+                    104.19241333007812,
+                    103.16636657714844
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5591427683830261,
+                "coordinate": [
+                    78.95036315917969,
+                    237.42996215820312,
+                    162.41213989257812,
+                    262.8022155761719
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5440536141395569,
+                "coordinate": [
+                    34.64659881591797,
+                    147.99368286132812,
+                    90.0601577758789,
+                    167.06222534179688
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5357574224472046,
+                "coordinate": [
+                    35.36553955078125,
+                    122.15391540527344,
+                    64.27093505859375,
+                    141.02333068847656
+                ]
+            },
+            {
+                "cls_id": 0,
+                "label": "paragraph_title",
+                "score": 0.46101534366607666,
+                "coordinate": [
+                    69.10848999023438,
+                    27.114498138427734,
+                    171.70925903320312,
+                    56.5461540222168
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4140963852405548,
+                "coordinate": [
+                    34.58922576904297,
+                    122.03379821777344,
+                    90.13581085205078,
+                    167.47117614746094
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    67,
+                    27
+                ],
+                [
+                    174,
+                    27
+                ],
+                [
+                    174,
+                    58
+                ],
+                [
+                    67,
+                    58
+                ]
+            ],
+            [
+                [
+                    32,
+                    80
+                ],
+                [
+                    106,
+                    79
+                ],
+                [
+                    106,
+                    103
+                ],
+                [
+                    33,
+                    104
+                ]
+            ],
+            [
+                [
+                    33,
+                    121
+                ],
+                [
+                    66,
+                    121
+                ],
+                [
+                    66,
+                    142
+                ],
+                [
+                    33,
+                    142
+                ]
+            ],
+            [
+                [
+                    33,
+                    148
+                ],
+                [
+                    92,
+                    148
+                ],
+                [
+                    92,
+                    167
+                ],
+                [
+                    33,
+                    167
+                ]
+            ],
+            [
+                [
+                    77,
+                    238
+                ],
+                [
+                    164,
+                    237
+                ],
+                [
+                    164,
+                    263
+                ],
+                [
+                    77,
+                    264
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "实名认证",
+            "身份信息",
+            "姓名",
+            "身份证号",
+            "开始认证"
+        ],
+        "rec_scores": [
+            0.9993926882743835,
+            0.9997270703315735,
+            0.9998245239257812,
+            0.9996778964996338,
+            0.9997538328170776
+        ],
+        "rec_polys": [
+            [
+                [
+                    67,
+                    27
+                ],
+                [
+                    174,
+                    27
+                ],
+                [
+                    174,
+                    58
+                ],
+                [
+                    67,
+                    58
+                ]
+            ],
+            [
+                [
+                    32,
+                    80
+                ],
+                [
+                    106,
+                    79
+                ],
+                [
+                    106,
+                    103
+                ],
+                [
+                    33,
+                    104
+                ]
+            ],
+            [
+                [
+                    33,
+                    121
+                ],
+                [
+                    66,
+                    121
+                ],
+                [
+                    66,
+                    142
+                ],
+                [
+                    33,
+                    142
+                ]
+            ],
+            [
+                [
+                    33,
+                    148
+                ],
+                [
+                    92,
+                    148
+                ],
+                [
+                    92,
+                    167
+                ],
+                [
+                    33,
+                    167
+                ]
+            ],
+            [
+                [
+                    77,
+                    238
+                ],
+                [
+                    164,
+                    237
+                ],
+                [
+                    164,
+                    263
+                ],
+                [
+                    77,
+                    264
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                67,
+                27,
+                174,
+                58
+            ],
+            [
+                32,
+                79,
+                106,
+                104
+            ],
+            [
+                33,
+                121,
+                66,
+                142
+            ],
+            [
+                33,
+                148,
+                92,
+                167
+            ],
+            [
+                77,
+                237,
+                164,
+                264
+            ]
+        ]
+    }
+}

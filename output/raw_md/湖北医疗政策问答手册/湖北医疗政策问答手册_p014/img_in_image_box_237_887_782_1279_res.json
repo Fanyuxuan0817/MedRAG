@@ -1,0 +1,344 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p014\\imgs\\img_in_image_box_237_887_782_1279.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 545,
+    "height": 392,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "唉？怎么在公立医院和民营医院购买的同一种药价格不一样呢？",
+            "block_bbox": [
+                12,
+                89,
+                213,
+                224
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "image",
+            "block_content": "?\n\n",
+            "block_bbox": [
+                232,
+                1,
+                544,
+                390
+            ],
+            "block_id": 1,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.9121499061584473,
+                "coordinate": [
+                    232.2158203125,
+                    1.9489288330078125,
+                    544.6627807617188,
+                    390.94586181640625
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.8277237415313721,
+                "coordinate": [
+                    12.005241394042969,
+                    89.98762512207031,
+                    213.88330078125,
+                    224.02879333496094
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    245,
+                    0
+                ],
+                [
+                    301,
+                    0
+                ],
+                [
+                    308,
+                    62
+                ],
+                [
+                    252,
+                    68
+                ]
+            ],
+            [
+                [
+                    13,
+                    90
+                ],
+                [
+                    214,
+                    89
+                ],
+                [
+                    214,
+                    120
+                ],
+                [
+                    13,
+                    121
+                ]
+            ],
+            [
+                [
+                    14,
+                    125
+                ],
+                [
+                    214,
+                    124
+                ],
+                [
+                    215,
+                    154
+                ],
+                [
+                    14,
+                    156
+                ]
+            ],
+            [
+                [
+                    13,
+                    159
+                ],
+                [
+                    214,
+                    159
+                ],
+                [
+                    214,
+                    190
+                ],
+                [
+                    13,
+                    190
+                ]
+            ],
+            [
+                [
+                    13,
+                    193
+                ],
+                [
+                    201,
+                    192
+                ],
+                [
+                    201,
+                    224
+                ],
+                [
+                    13,
+                    225
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "?",
+            "唉？怎么在公立",
+            "医院和民营医院",
+            "购买的同一种药",
+            "价格不一样呢？"
+        ],
+        "rec_scores": [
+            0.7831785082817078,
+            0.9892141222953796,
+            0.9990147352218628,
+            0.9976099133491516,
+            0.987848699092865
+        ],
+        "rec_polys": [
+            [
+                [
+                    245,
+                    0
+                ],
+                [
+                    301,
+                    0
+                ],
+                [
+                    308,
+                    62
+                ],
+                [
+                    252,
+                    68
+                ]
+            ],
+            [
+                [
+                    13,
+                    90
+                ],
+                [
+                    214,
+                    89
+                ],
+                [
+                    214,
+                    120
+                ],
+                [
+                    13,
+                    121
+                ]
+            ],
+            [
+                [
+                    14,
+                    125
+                ],
+                [
+                    214,
+                    124
+                ],
+                [
+                    215,
+                    154
+                ],
+                [
+                    14,
+                    156
+                ]
+            ],
+            [
+                [
+                    13,
+                    159
+                ],
+                [
+                    214,
+                    159
+                ],
+                [
+                    214,
+                    190
+                ],
+                [
+                    13,
+                    190
+                ]
+            ],
+            [
+                [
+                    13,
+                    193
+                ],
+                [
+                    201,
+                    192
+                ],
+                [
+                    201,
+                    224
+                ],
+                [
+                    13,
+                    225
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                245,
+                0,
+                308,
+                68
+            ],
+            [
+                13,
+                89,
+                214,
+                121
+            ],
+            [
+                14,
+                124,
+                215,
+                156
+            ],
+            [
+                13,
+                159,
+                214,
+                190
+            ],
+            [
+                13,
+                192,
+                201,
+                225
+            ]
+        ]
+    }
+}

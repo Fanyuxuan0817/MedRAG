@@ -1,0 +1,411 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p040\\imgs\\img_in_image_box_187_276_441_699.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 254,
+    "height": 423,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "image",
+            "block_content": "医保电子凭证\n支小宝\n\n2\n激活医保电子凭证\n请选择参保地济南\n同意协议并激活\n",
+            "block_bbox": [
+                9,
+                10,
+                240,
+                419
+            ],
+            "block_id": 0,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.5219964981079102,
+                "coordinate": [
+                    9.943489074707031,
+                    10.792098999023438,
+                    240.98129272460938,
+                    419.74017333984375
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    33,
+                    46
+                ],
+                [
+                    196,
+                    45
+                ],
+                [
+                    196,
+                    73
+                ],
+                [
+                    33,
+                    74
+                ]
+            ],
+            [
+                [
+                    33,
+                    85
+                ],
+                [
+                    101,
+                    84
+                ],
+                [
+                    101,
+                    109
+                ],
+                [
+                    34,
+                    110
+                ]
+            ],
+            [
+                [
+                    168,
+                    122
+                ],
+                [
+                    175,
+                    122
+                ],
+                [
+                    175,
+                    134
+                ],
+                [
+                    168,
+                    134
+                ]
+            ],
+            [
+                [
+                    36,
+                    172
+                ],
+                [
+                    210,
+                    171
+                ],
+                [
+                    210,
+                    194
+                ],
+                [
+                    36,
+                    195
+                ]
+            ],
+            [
+                [
+                    27,
+                    267
+                ],
+                [
+                    116,
+                    267
+                ],
+                [
+                    116,
+                    284
+                ],
+                [
+                    27,
+                    284
+                ]
+            ],
+            [
+                [
+                    195,
+                    266
+                ],
+                [
+                    228,
+                    266
+                ],
+                [
+                    228,
+                    285
+                ],
+                [
+                    195,
+                    285
+                ]
+            ],
+            [
+                [
+                    52,
+                    294
+                ],
+                [
+                    203,
+                    294
+                ],
+                [
+                    203,
+                    318
+                ],
+                [
+                    52,
+                    318
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "医保电子凭证",
+            "支小宝",
+            "2",
+            "激活医保电子凭证",
+            "请选择参保地",
+            "济南",
+            "同意协议并激活"
+        ],
+        "rec_scores": [
+            0.9993274807929993,
+            0.9996466040611267,
+            0.6399429440498352,
+            0.9991142749786377,
+            0.9995970726013184,
+            0.9997025728225708,
+            0.9985529184341431
+        ],
+        "rec_polys": [
+            [
+                [
+                    33,
+                    46
+                ],
+                [
+                    196,
+                    45
+                ],
+                [
+                    196,
+                    73
+                ],
+                [
+                    33,
+                    74
+                ]
+            ],
+            [
+                [
+                    33,
+                    85
+                ],
+                [
+                    101,
+                    84
+                ],
+                [
+                    101,
+                    109
+                ],
+                [
+                    34,
+                    110
+                ]
+            ],
+            [
+                [
+                    168,
+                    122
+                ],
+                [
+                    175,
+                    122
+                ],
+                [
+                    175,
+                    134
+                ],
+                [
+                    168,
+                    134
+                ]
+            ],
+            [
+                [
+                    36,
+                    172
+                ],
+                [
+                    210,
+                    171
+                ],
+                [
+                    210,
+                    194
+                ],
+                [
+                    36,
+                    195
+                ]
+            ],
+            [
+                [
+                    27,
+                    267
+                ],
+                [
+                    116,
+                    267
+                ],
+                [
+                    116,
+                    284
+                ],
+                [
+                    27,
+                    284
+                ]
+            ],
+            [
+                [
+                    195,
+                    266
+                ],
+                [
+                    228,
+                    266
+                ],
+                [
+                    228,
+                    285
+                ],
+                [
+                    195,
+                    285
+                ]
+            ],
+            [
+                [
+                    52,
+                    294
+                ],
+                [
+                    203,
+                    294
+                ],
+                [
+                    203,
+                    318
+                ],
+                [
+                    52,
+                    318
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                33,
+                45,
+                196,
+                74
+            ],
+            [
+                33,
+                84,
+                101,
+                110
+            ],
+            [
+                168,
+                122,
+                175,
+                134
+            ],
+            [
+                36,
+                171,
+                210,
+                195
+            ],
+            [
+                27,
+                267,
+                116,
+                284
+            ],
+            [
+                195,
+                266,
+                228,
+                285
+            ],
+            [
+                52,
+                294,
+                203,
+                318
+            ]
+        ]
+    }
+}

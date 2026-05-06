@@ -1,0 +1,209 @@
+{
+    "input_path": "E:\\workspace\\MedRAG\\output\\raw_md\\湖北医疗政策问答手册\\湖北医疗政策问答手册_p039\\imgs\\img_in_image_box_561_207_810_623.jpg",
+    "page_index": null,
+    "page_count": null,
+    "width": 249,
+    "height": 416,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "取消",
+            "block_bbox": [
+                25,
+                31,
+                58,
+                51
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "识别中",
+            "block_bbox": [
+                77,
+                227,
+                172,
+                264
+            ],
+            "block_id": 1,
+            "block_order": 2
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4556381404399872,
+                "coordinate": [
+                    25.363784790039062,
+                    31.331388473510742,
+                    58.67852020263672,
+                    51.167999267578125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.4117722809314728,
+                "coordinate": [
+                    77.99201965332031,
+                    227.74810791015625,
+                    172.5171661376953,
+                    264.6272888183594
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    22,
+                    29
+                ],
+                [
+                    62,
+                    29
+                ],
+                [
+                    62,
+                    53
+                ],
+                [
+                    22,
+                    53
+                ]
+            ],
+            [
+                [
+                    76,
+                    227
+                ],
+                [
+                    176,
+                    227
+                ],
+                [
+                    176,
+                    265
+                ],
+                [
+                    76,
+                    265
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "取消",
+            "识别中"
+        ],
+        "rec_scores": [
+            0.9998494386672974,
+            0.9993083477020264
+        ],
+        "rec_polys": [
+            [
+                [
+                    22,
+                    29
+                ],
+                [
+                    62,
+                    29
+                ],
+                [
+                    62,
+                    53
+                ],
+                [
+                    22,
+                    53
+                ]
+            ],
+            [
+                [
+                    76,
+                    227
+                ],
+                [
+                    176,
+                    227
+                ],
+                [
+                    176,
+                    265
+                ],
+                [
+                    76,
+                    265
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                22,
+                29,
+                62,
+                53
+            ],
+            [
+                76,
+                227,
+                176,
+                265
+            ]
+        ]
+    }
+}
